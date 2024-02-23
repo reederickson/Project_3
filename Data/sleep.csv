@@ -1,4 +1,4 @@
-,id,person_id,sleep_duration,Quality of Sleep,sleep_disorder_id
+,id,person_id,sleep_duration,sleep_quality,sleep_disorder_id
 0,0,1,6.1,6,0
 1,1,2,6.2,6,0
 2,2,3,6.2,6,0
