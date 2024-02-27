@@ -9,9 +9,9 @@ from sqlalchemy import create_engine, func
 from flask import Flask, jsonify
 ###################
 # create and save database
-execfile("Database Setup.py")
+execfile("Setup and Organization/Database Setup.py")
 # database setup
-engine = create_engine("sqlite:///database.sqlite")
+engine = create_engine("sqlite:///Resources/database.sqlite")
 conn=engine.connect()
 
 # reflect an existing database into a new model
