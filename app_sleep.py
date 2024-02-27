@@ -33,3 +33,6 @@ def Welcome():
     )
 @app.route("/api/v1.0/route1")
 def ():
+    session= Session(engine)
+    #query all whatevers
+    session.close()
