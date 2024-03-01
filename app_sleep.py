@@ -28,17 +28,11 @@ def Welcome():
     # available api routes
     return(
         f"Available Routs: <br/>"
-        f"/sleep_and_stress <br/>"
+        f"/api/v1.0/route1 <br/>"
         f"/api/v1.0/route2 <br/>"
     )
-
-from reed import perform_analysis
-@app.route("/sleep_and_stress")
-def analysis_route():
-    result = perform_analysis()
-    return f"Analysis Reesult: {result}"
-
-if __name__ == "__main__":
-    app.run(debug=True)
+@app.route("/api/v1.0/route1")
+def ():
+    session= Session(engine)
     #query all whatevers
     session.close()
