@@ -11,7 +11,7 @@ async function fetchData(url) {
 // Load CSV data and create plot
 async function createPlot(selectedGender) {
     // Fetch CSV data based on selected gender
-    const ageData = await fetchData(`Resources/Database_CSVs/age_${selectedGender}.csv`);
+    const ageData = await fetchData(`Resources/Database_CSVs/person${selectedGender}.csv`);
     const occupationData = await fetchData(`Resources/Database_CSVs/occupation_${selectedGender}.csv`);
     const sleepDurationData = await fetchData(`Resources/Database_CSVs/sleep_duration_${selectedGender}.csv`);
     const sleepQualityData = await fetchData(`Resources/Database_CSVs/sleep_quality_${selectedGender}.csv`);
