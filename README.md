@@ -22,9 +22,12 @@ Our Project 3 presentation can be found [here](https://www.canva.com/design/DAF-
 Since the original CSV had string values for categorical columns, we split those up, replacing them by numerical values from the new tables we had created so that any joins done would be based on numerical primary keys.
 
 ## Instructions on how to use and interact with the project
+Clone the repository to your local machine by running the following command in terminal or git bash
+```bash
+git clone https://github.com/reederickson/Project_3.git
+```
+
 The "Project3.ipynb" file in the repo is everything you will need to interact with our work. An outside script (in the "Setup_and_Organization" folder) is called to create the database and get the data into the current file.
-
-
 
 ## Ethical considerations made
 In our analysis, we used a publicly accessible dataset in which participants were identified solely by "Person_IDs" to maintain anonymity. Due to the lack of racial or cultural descriptors within the dataset, it is challenging to ascertain the presence of any biases inherent in the data. Notably, the majority of occupations represented in the dataset are categorized as white-collar jobs, which typically entail professional, managerial, or administrative roles. This observation underscores a particular demographic focus within the dataset, potentially influencing the generalizability of our findings and warranting caution in their interpretation. Despite these limitations, the availability of such data provides valuable insights into certain aspects of societal trends and behaviors, albeit within specific contexts.
