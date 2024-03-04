@@ -17,12 +17,7 @@ Base = declarative_base()
 ## Creating the database
 engine = create_engine('sqlite:///Resources/database.sqlite')
 
-class Person(Base):
-    __tablename__ = 'person'
-    id = Column(Integer, primary_key=True)
-    gender_id = Column(Integer)
-    age = Column(Integer)
-    occupation_id = Column(Integer)
+
 
 class Sleep(Base):
     __tablename__ = 'sleep'
