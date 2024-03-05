@@ -8,7 +8,7 @@ Created by Breakout Room 1 Members:
 Our Project 3 presentation can be found [here](https://www.canva.com/design/DAF-BdQChmw/yEestTJYNk7lJpt7IPr76g/edit?utm_content=DAF-BdQChmw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 
 ## An overview of the project and its purpose
-
+This project proposes to analyze and visualize a sleep health and lifestyle dataset sourced from Kaggle. The dataset includes information on factors such as sleep duration, quality, physical activity level, stress level, BMI category, blood pressure, heart rate, daily steps, and sleep disorder. The analysis aims to uncover insights into the relationships between these variables and their impact on sleep health and lifestyle choices.
 ## How we handled the initial data and cleaning
 
 ### Data Cleaning
